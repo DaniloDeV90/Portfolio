@@ -1,0 +1,38 @@
+.cards {
+padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cardProjeto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    width: 400px;
+    
+}
+
+
+
+
+
+.imagensProjetos {
+    margin-left: 20px;
+   border-radius: 5px;
+   transition: 0.5s;
+    
+}
+.imagensProjetos:hover {
+    transition: 0.5s;
+    width: 360px;
+    height: 210px;
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+justify-content: center;
+}

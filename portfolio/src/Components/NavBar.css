@@ -46,8 +46,7 @@ display: flex;
  
     font-size: 20px;
 }
-
-button {
+#btnNav {
   
     margin: 5px;
    padding: 10px;
@@ -76,7 +75,7 @@ button {
       inset     -5px -5px 10px #212121;
   }
   
-  button:hover {
+#btnNav:hover {
     -webkit-box-shadow: 1px 1px 13px #20232e,
                       -1px -1px 13px #545b78;
     box-shadow: 1px 1px 13px #20232e,
@@ -86,7 +85,7 @@ button {
     transition: 500ms;
   }
   
-  button:active {
+#btnNav:active {
     -webkit-box-shadow: 1px 1px 13px #20232e,
                        -1px -1px 33px #545b78;
     box-shadow: 1px 1px 13px #20232e,

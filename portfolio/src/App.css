@@ -26,7 +26,7 @@
  
 }
 .claro {
-  background-image:  linear-gradient(white, blue);
+  background-image:  linear-gradient(to right,rgb(32, 41, 92), rgb(160, 160, 160), rgb(56, 198, 241));
 }
 
 .escuro {

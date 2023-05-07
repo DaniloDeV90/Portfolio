@@ -27,7 +27,7 @@ const Navbar = ({estado, setEstilo}) => {
        <Navbarmenu/>
 </div>
 
-<button onClick={btnColor} >{nomeBTN ? "Light" : "Dark"}</button>
+<button id="btnNav" onClick={btnColor} >{nomeBTN ? "Light" : "Dark"}</button>
 
 
 

@@ -1,11 +1,71 @@
 
-
+import "./Projetos.css"
+import  Agenda from "./ImagensProj/Agenda.jpg"
+import imgFilme from "./ImagensProj/imgFilme.jpg"
 const Projetos = () => {
   
 
 
   return (
-    <main>Projetos
+    <main>
+
+    <div>
+
+
+
+      <div className="cards">
+
+        <div className="cardProjeto">
+          <a href="https://teste2-sooty.vercel.app" target="_blank">
+
+    
+          <div className="img">
+          <img src={Agenda} alt="" className="imagensProjetos" width={"350px"} height={"200px"} />
+          <p>Tecnlogias utilizadas: </p>
+          <ul>
+          <li>React</li>
+          <li>Css</li>
+          <li>Node</li>
+          <li>Sequelize</li>
+          <li>PostgreSQL</li>
+         </ul>
+          </div>
+          </a>
+     
+
+        </div>
+        <div className="cardProjeto">
+          <a href="https://encontrar-filmes.vercel.app" target="_blank">
+
+    
+          <div className="img">
+          <img src={imgFilme} alt="" className="imagensProjetos" width={"350px"} height={"200px"} />
+          <p>Tecnlogias utilizadas: </p>
+          <ul>
+          <li>React</li>
+          <li>Javascript</li>
+         </ul>
+          </div>
+          </a>
+     
+
+        </div>
+          
+        </div>
+        <div className="cardProjeto">
+        <div className="img">
+          CRUD
+          </div>
+          
+        </div>
+        <div className="cardProjeto">
+        <div className="img">
+          CRUD
+          </div>
+          
+        </div>
+      </div>
+    
       
     </main>
   
