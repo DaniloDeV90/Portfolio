@@ -65,7 +65,7 @@ const Home = () => {
   <h1 id="tecnologias">Tecnologias</h1>
 
   <h2>Front-End</h2>
-  <ul>
+  <ul className="ulFront">
  
     <li><img src={html} width={"20px"} height={"20px"} alt="Imagem da logo do HTML" /> HTML</li>
     <li > <img src={css} width={"20px"} height={"20px"} alt="imagem da logo do css" />CSS</li>

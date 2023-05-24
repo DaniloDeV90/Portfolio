@@ -105,7 +105,7 @@ p {
     #h3git {
     margin-top: 20px;
     }
-
+  
 @media (max-width: 1410px) {
 .conteudo {
     flex-wrap: nowrap;
@@ -132,6 +132,7 @@ p {
 }
     
 }
+
 }
 @media (max-width: 810px) {
     .conteudo {

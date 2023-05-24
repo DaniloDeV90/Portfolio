@@ -40,7 +40,7 @@ NewEstilo ()
       </Routes>
       </BrowserRouter>
      
-      <footer> Desenvolvedor </footer>
+  
     </div>
   )
 }

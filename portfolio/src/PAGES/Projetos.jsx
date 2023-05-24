@@ -75,7 +75,7 @@ const Projetos = () => {
         </div>
         <div className="cardProjeto">
         <div className="img">
-          CRUD
+          
           </div>
           
         </div>
